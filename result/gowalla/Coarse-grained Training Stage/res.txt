@@ -1,0 +1,844 @@
+Init - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg non-zero value = 0.50.
+
+Epoch 0 | ndcgs: [0.006515028785997264, 0.008823584118486459, 0.01192793677530995, 0.018123069797833142] | recalls: [0.008265011596186445, 0.014458860023767577, 0.02461233709588231, 0.05034416723217882]
+Epoch 5 | ndcgs: [0.02951803367472093, 0.035269017995656064, 0.04208848685683591, 0.05486815299056031] | recalls: [0.032070932174185454, 0.04933986212281744, 0.07175941802543487, 0.12395675051242654]
+Epoch 10 | ndcgs: [0.03670233128422651, 0.04274514988777822, 0.050600105057994414, 0.0642321426599473] | recalls: [0.04063491218803204, 0.059180694372340484, 0.08522669004795429, 0.1406533369950834]
+Epoch 15 | ndcgs: [0.039743848408724435, 0.04599327967192988, 0.054316678099856776, 0.06813588458736028] | recalls: [0.043689501289604776, 0.06289086986470609, 0.09067718688332606, 0.14646296485205673]
+Epoch 20 | ndcgs: [0.04197329479778394, 0.04855703903542357, 0.057076272010511464, 0.07100190213728028] | recalls: [0.04576195034766499, 0.06577185700570091, 0.094059908390049, 0.1503706173686508]
+Epoch 25 | ndcgs: [0.04360199114975994, 0.050487564356331546, 0.058943147662975974, 0.07322167290376529] | recalls: [0.04735732688922453, 0.06820436831918252, 0.09625205777752745, 0.15399342238974478]
+Epoch 30 | ndcgs: [0.04456167764918201, 0.05135499719970982, 0.05987658351342732, 0.07441412039286553] | recalls: [0.0486239073124745, 0.06934173825361165, 0.09752347490737186, 0.15644081623590275]
+Epoch 35 | ndcgs: [0.04504240756429378, 0.05174296907063996, 0.06052120050117144, 0.07502887514054053] | recalls: [0.049200435548705006, 0.06975091128469851, 0.09886446749194767, 0.15764201896125998]
+Epoch 40 | ndcgs: [0.04552062275690559, 0.05228910011292251, 0.060960383130245085, 0.07553009569400702] | recalls: [0.049374864673526045, 0.07013992468842913, 0.09897551555856268, 0.15789259204642975]
+Epoch 45 | ndcgs: [0.045366969066751923, 0.05234114695662148, 0.06105253478960479, 0.07554567396972998] | recalls: [0.049087610984428535, 0.07022844030144275, 0.09916111217038592, 0.15788506368382674]
+Epoch 50 | ndcgs: [0.045560020221297466, 0.052342551217076254, 0.06105550340131485, 0.0756116536249826] | recalls: [0.049482648866489225, 0.07017844682918548, 0.09904066148924205, 0.15802343984344067]
+Epoch 55 | ndcgs: [0.04571746827625544, 0.05249749422497785, 0.061125092582615406, 0.07570932114452945] | recalls: [0.04976382550164918, 0.07050142055370236, 0.09913528305325403, 0.1581310529196081]
+Epoch 60 | ndcgs: [0.04580354506607462, 0.05269294829478311, 0.06116065541270951, 0.07571920431796965] | recalls: [0.04983245259619656, 0.07081588344059142, 0.09889218118641034, 0.15776901731650053]
+Epoch 65 | ndcgs: [0.04587393622194633, 0.05244666360902255, 0.061194151388803686, 0.07588205768265288] | recalls: [0.04995814073122351, 0.06995222590565378, 0.09893703810010747, 0.15827460112317332]
+Epoch 70 | ndcgs: [0.04560149029817064, 0.05254124369482621, 0.06105736434736789, 0.0758148245706279] | recalls: [0.04954956578452129, 0.0707409564879233, 0.09877802718938199, 0.1586148105506105]
+Epoch 75 | ndcgs: [0.045658340850858285, 0.05251067467619676, 0.06096966783523732, 0.07578893638490779] | recalls: [0.04966324256149298, 0.0705600156787437, 0.09854414223063142, 0.15851707104623017]
+Epoch 80 | ndcgs: [0.0456738424263237, 0.052382061650196925, 0.06106649099305595, 0.07579503641112305] | recalls: [0.049851159457306275, 0.07040075665725441, 0.09905663016979903, 0.15872612179566112]
+Epoch 85 | ndcgs: [0.04573813235131856, 0.05253638898967856, 0.061074447984501644, 0.07581286643785706] | recalls: [0.04988299737374009, 0.07065526891762675, 0.09880687463799548, 0.15848775787570776]
+Epoch 90 | ndcgs: [0.04569733770868773, 0.052452381171623645, 0.061249579308515, 0.07586239078237675] | recalls: [0.04965041104967595, 0.07029364553502673, 0.09928810525309631, 0.15845271052021836]
+fixed assignment training converged. Now early stop flag reset.
+Epoch 90, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 300.
+#refine utilized = 300.
+
+Epoch 91, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 300.
+#refine utilized = 300.
+
+Epoch 92, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 299.
+#refine utilized = 299.
+
+Epoch 93, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 294.
+#refine utilized = 294.
+
+Epoch 94, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 285.
+#refine utilized = 285.
+
+Epoch 95 | ndcgs: [0.05235043831862659, 0.06091461330358416, 0.07164615952442213, 0.08818580509622005] | recalls: [0.05704960666142047, 0.08266486295298098, 0.1180285063308028, 0.18541861674063664]
+Epoch 95, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 281.
+#refine utilized = 281.
+
+Epoch 96, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 279.
+#refine utilized = 279.
+
+Epoch 97, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 279.
+#refine utilized = 279.
+
+Epoch 98, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 279.
+#refine utilized = 279.
+
+Epoch 99, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 278.
+#refine utilized = 278.
+
+Epoch 100 | ndcgs: [0.05374790703746675, 0.06296390546985424, 0.07460842810711295, 0.09275197187089872] | recalls: [0.06069884655688355, 0.0875487927758742, 0.12606415382632893, 0.2000096283840475]
+Epoch 100, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 278.
+#refine utilized = 278.
+
+Epoch 101, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 278.
+#refine utilized = 278.
+
+Epoch 102, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 278.
+#refine utilized = 278.
+
+Epoch 103, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 277.
+#refine utilized = 277.
+
+Epoch 104, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 274.
+#refine utilized = 274.
+
+Epoch 105 | ndcgs: [0.05426074185790913, 0.06378845290931939, 0.07613396915187884, 0.09504032334347905] | recalls: [0.06084169927652187, 0.08878140006982393, 0.1297735894224709, 0.20676975294799224]
+Epoch 105, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 106, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 107, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 108, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 109, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 110 | ndcgs: [0.05573721723072839, 0.06506896998990078, 0.07752380313022009, 0.09733331497270044] | recalls: [0.06290523102050878, 0.09031845014751985, 0.13169914554797468, 0.2126359358365462]
+Epoch 110, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 111, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 112, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 113, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 114, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 115 | ndcgs: [0.05647376232124748, 0.06620524661576369, 0.07873982919974025, 0.09869915350218282] | recalls: [0.06349571332510535, 0.09195408646937331, 0.13364006585008217, 0.2152311078879361]
+Epoch 115, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 116, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 117, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 118, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 272.
+#refine utilized = 272.
+
+Epoch 119, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 120 | ndcgs: [0.057328558265665894, 0.06730035620645312, 0.07970570614423672, 0.09992674289131011] | recalls: [0.06424722920166177, 0.09343840005708977, 0.13469634372651154, 0.21735403708495604]
+Epoch 120, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 121, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 122, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 123, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 124, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 125 | ndcgs: [0.05844564848509421, 0.06837849897409451, 0.08081749511567717, 0.10102434181791721] | recalls: [0.06557445815866357, 0.09467086673404564, 0.13599805611744636, 0.2185895642382378]
+Epoch 125, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 126, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 127, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 128, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 129, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 130 | ndcgs: [0.05887620766734431, 0.06894365054640259, 0.0813773948247003, 0.10162256306442753] | recalls: [0.06573083054823563, 0.09517266579085133, 0.13644311991052868, 0.2192255172612062]
+Epoch 130, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 131, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 270.
+#refine utilized = 270.
+
+Epoch 132, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 269.
+#refine utilized = 269.
+
+Epoch 133, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 269.
+#refine utilized = 269.
+
+Epoch 134, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 268.
+#refine utilized = 268.
+
+Epoch 135 | ndcgs: [0.05912667660136144, 0.0691455221686979, 0.08177742592167221, 0.10195245612049196] | recalls: [0.06613827796780553, 0.09556175697243041, 0.1375473223505342, 0.2200234165843183]
+Epoch 135, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 268.
+#refine utilized = 268.
+
+Epoch 136, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 137, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 138, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 139, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 140 | ndcgs: [0.059369182493992596, 0.06938744816791899, 0.08217036805639841, 0.10240221055616165] | recalls: [0.0662099250486294, 0.09565100271700971, 0.1379424657843023, 0.22065515803539593]
+Epoch 140, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 141, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 142, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 143, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 144, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 145 | ndcgs: [0.05957495168514335, 0.06983563211756723, 0.0825728917338194, 0.10272985805919435] | recalls: [0.06642601350976403, 0.09647934475796302, 0.13878720071987116, 0.22114492368303637]
+Epoch 145, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 146, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 147, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 148, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 149, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 150 | ndcgs: [0.05990849742395431, 0.07008024570472078, 0.0828620103128952, 0.10300089677625089] | recalls: [0.06690899646902933, 0.09687635912965276, 0.1393067160964662, 0.2217439860396931]
+Epoch 150, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 151, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 152, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 153, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 154, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 155 | ndcgs: [0.060115964098086346, 0.070124487127657, 0.08293807678731566, 0.10322008362360077] | recalls: [0.06710212924078095, 0.09651831580018334, 0.13913057277897697, 0.22215362303670957]
+Epoch 155, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 156, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 157, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 267.
+#refine utilized = 267.
+
+Epoch 158, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 159, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 160 | ndcgs: [0.06033623619486859, 0.07020140338929562, 0.08312672462048354, 0.10320006738565496] | recalls: [0.06734527880160027, 0.09642209880071237, 0.13940708141641717, 0.22150430877384752]
+Epoch 160, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 161, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 162, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 163, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 164, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 165 | ndcgs: [0.06033905674077186, 0.07036846512469938, 0.0831774951226168, 0.10321256117398019] | recalls: [0.06717964360914004, 0.09676125373551245, 0.13932134020398826, 0.2212385544819192]
+Epoch 165, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 166, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 167, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 168, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 169, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 170 | ndcgs: [0.060643964937662616, 0.07047589450868416, 0.08342432123505962, 0.10334828132832911] | recalls: [0.06762768291793399, 0.09669964696531029, 0.1396704980130446, 0.2211797055306859]
+Epoch 170, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 171, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 172, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 173, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 174, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 175 | ndcgs: [0.06064738605835869, 0.07051267387197148, 0.08342159043822915, 0.10329389184671404] | recalls: [0.06768541475897964, 0.09678421558258886, 0.1396125024874692, 0.22071667461352107]
+Epoch 175, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 176, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 177, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 178, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 179, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 180 | ndcgs: [0.060946101989918615, 0.07060874908935284, 0.08368788185025898, 0.1035499395907443] | recalls: [0.06812540332176908, 0.09664911123882403, 0.14006398713893306, 0.22119835509614819]
+Epoch 180, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 181, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 182, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 183, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 184, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 185 | ndcgs: [0.06103854682224094, 0.07075405149289168, 0.08358753155834804, 0.10358505314771874] | recalls: [0.06854770317812012, 0.09732999459873293, 0.13998991370388406, 0.22161466859990064]
+Epoch 185, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 186, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 187, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 188, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 189, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 190 | ndcgs: [0.06090186263870659, 0.07098763662287624, 0.08371136869691313, 0.10364339983620822] | recalls: [0.06803202165287418, 0.09779310766347897, 0.1401853682097071, 0.22154037703148732]
+Epoch 190, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 191, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 192, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 193, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 194, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 195 | ndcgs: [0.0610773030145684, 0.07118962728948859, 0.08388602882585748, 0.1037123153024975] | recalls: [0.06803202381609164, 0.09794808262083589, 0.140196111936098, 0.22092327693799677]
+Epoch 195, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 196, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 197, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 198, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 199, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 200 | ndcgs: [0.06092459942706283, 0.07099073284918678, 0.08367708707626971, 0.10362585432548037] | recalls: [0.06800688858395665, 0.09779170710651613, 0.1400663896030827, 0.22144605467028833]
+Epoch 200, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 201, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 202, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 203, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 204, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.04,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 205 | ndcgs: [0.0609067106133027, 0.07084175398453185, 0.08368864485964449, 0.10364099023954544] | recalls: [0.06799218437644594, 0.09737383136191473, 0.14002107234461086, 0.2214436225605641]
+Epoch 205, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 206, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 207, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 208, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 209, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 210 | ndcgs: [0.06102917172307564, 0.07102344550741183, 0.08379398270511806, 0.10371970570456243] | recalls: [0.06796865645233902, 0.09771164202191707, 0.14007671252135662, 0.2212915997656146]
+Epoch 210, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 211, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 212, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 213, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 214, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 215 | ndcgs: [0.06100760024563244, 0.07098428504900382, 0.08390624519692783, 0.10380511747527275] | recalls: [0.06797644558943618, 0.09755961966180507, 0.14051505080137014, 0.2217147762217421]
+Epoch 215, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 216, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 217, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 218, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 219, Batch 0 - centroid assignment stat:
+% of non-zero values 0.67%, avg non-zero/row = 2.00,
+avg value: 0.00, avg non-zero value = 0.03,
+#centroids utilized = 266.
+#refine utilized = 266.
+
+Epoch 220 | ndcgs: [0.06105866153723305, 0.07107038722031332, 0.08386109749404778, 0.1039091487228902] | recalls: [0.06800244608156883, 0.09759501135280368, 0.14014006379365695, 0.2219813591571503]
+early stop threshold 5 reached. Now exit.
+
+Best pre-ndcg@5 at Epoch 65, Best post-ndcg@5 at Epoch 195.
+
+
+[Evaluation]
+Evaluating best_checkpoint_before_assignment_update...
+ndcgs: [0.05755069901254289, 0.06191407198123914, 0.0709833878830064, 0.08792237214831937] | recalls: [0.04822455172187465, 0.06935598283946919, 0.09973575308647228, 0.16045295080975652]
+
+
+Evaluating best_checkpoint_with_assignment_update...
+ndcgs: [0.07877033967347503, 0.08564655705348166, 0.09843599756323748, 0.1213310510627092] | recalls: [0.06775090633331239, 0.09784444198765363, 0.14054841326649, 0.22333648683307292]
+
+

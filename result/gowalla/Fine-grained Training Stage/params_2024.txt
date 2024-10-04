@@ -1,0 +1,33 @@
+seed: 2024
+bpr_batch: 32768
+latent_dim: 128
+l2_penalty_factor: 5
+num_layers: 3
+lr: 0.003
+optimizer_weight_decay: 0.0
+decay: 0.0001
+test_batch: 20
+neg_size: 5
+dataset_name: gowalla
+res_prepath: ./logsa/gowalla_latent_dim_128_num_cluster_300_seed_2020_num_composition_embs_2_lr_3e-03_optimizer_weight_decay_0.0_l2_penalty_5
+device_id: cuda:1
+epochs: 900
+early_stop_fixed_assignment_stage: 5
+early_stop_assignment_update_stage: 5
+ks: [5, 10, 20, 50]
+additional_alias: None
+max_grad_value: 3
+num_clusters: 300
+num_composition_centroid: 2
+use_metis_init: True
+assignment_update_frequency: every-epoch
+sign_ft: 1
+init_path_ft: ./logs/
+threshold_ft: 1
+gate: 0.2
+top_k_ft: 4
+n_components_ft: 80
+num_clusters_ft: 100
+data_path: ./data/gowalla
+alias: gowalla_latent_dim_128_num_cluster_300_seed_2020_num_composition_embs_2_lr_3e-03_optimizer_weight_decay_0.0_l2_penalty_5
+field_dims: [29858, 40981]
