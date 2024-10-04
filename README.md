@@ -105,6 +105,9 @@ This implementation is based on / inspired by:
 | **The Fine Training Stage**        |[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/gowalla/Fine-grained%20Training%20Stage)|[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/yelp2020/Fine-grained%20Training%20Stage)|[Hyperparameter&Results]()
 
 
+## Ablation study about space complexity
+![](result/as.png)
+
 </details>
 
 
