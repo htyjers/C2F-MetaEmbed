@@ -1,10 +1,7 @@
 # C2F-MetaEmbed
 ### [Paper]() | [BibTex]()
 
-This repository is the official code for the paper "Coarse-to-Fine Lightweight Meta-Embedding for ID-Based Recommendation" by Yang Wang <a href="mailto:yangwang@hfut.edu.cn">
-    <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white"> , Haipeng Liu <a href="mailto:hpliu_hfut@hotmail.com">
-    <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white"> , Zeqian Yi, Biao Qian, Meng Wang (corresponding author). 
-
+This repository is the official code for the paper "Coarse-to-Fine Lightweight Meta-Embedding for ID-Based Recommendation" by Yang Wang (<a href="mailto:yangwang@hfut.edu.cn">Email</a>), Haipeng Liu (<a href="mailto:hpliu_hfut@hotmail.com">Email</a>), Zeqian Yi, Biao Qian, and Meng Wang (corresponding author).
 
 ## 📚 Table of Contents
 
