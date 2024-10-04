@@ -35,7 +35,7 @@ This repository is the official code for the paper "Coarse-to-Fine Lightweight M
 ## 2. Dataset 
 Train and test sets of Gowalla, Yelp2020 and Amazon-book are located in [here](https://pan.baidu.com/s/1TUeNaT6_wioDBWwhIswgfg?pwd=f3vp).
 
-## 3. The Coarse Training Stage
+## 3. The Coarse-Grained Training Stage
 
 ### Implementation Details
 * We followed the [LEGCF](https://github.com/xurong-liang/LEGCF) framework to set most of the hyperparameters during the coarse training stage, with **bold font** indicating the parameters with different values.
@@ -60,7 +60,7 @@ Train and test sets of Gowalla, Yelp2020 and Amazon-book are located in [here](h
 Python3 engine.py --dataset_name gowalla --num_clusters 300 --num_composition_centroid 2 --device_id 0
 ```
 
-## 4. The Fine Training Stage
+## 4. The Fine-Grained Training Stage
 
 ### Implementation Details
 * **Bold font** indicating the parameters that differ from those used in the coarse stage.
@@ -101,13 +101,11 @@ This implementation is based on / inspired by:
 ## Quantitative analysis
 | **Log**               | **Gowalla**  | **Yelp2020** | **Amazon-book** |
 |----------------------------------|--------------|--------------|-----------------|
-| **The Coarse Training Stage**        |[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/gowalla/Coarse-grained%20Training%20Stage)|[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/yelp2020/Coarse-grained%20Training%20Stage)|[Hyperparameter&Results]()
-| **The Fine Training Stage**        |[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/gowalla/Fine-grained%20Training%20Stage)|[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/yelp2020/Fine-grained%20Training%20Stage)|[Hyperparameter&Results]()
-
+| **Coarse-Grained Training Stage**        |[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/gowalla/Coarse-grained%20Training%20Stage)|[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/yelp2020/Coarse-grained%20Training%20Stage)|[Hyperparameter&Results]()
+| **Fine-Grained Training Stage**        |[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/gowalla/Fine-grained%20Training%20Stage)|[Hyperparameter&Results](https://github.com/htyjers/C2F-MetaEmbed/tree/main/result/yelp2020/Fine-grained%20Training%20Stage)|[Hyperparameter&Results]()
 
 ## Ablation study about space complexity
 ![](result/as.png)
-
 </details>
 
 
