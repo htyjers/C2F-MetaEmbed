@@ -29,7 +29,7 @@ def config_parser() -> ArgumentParser:
     parser.add_argument("--neg_size", type=int, default=5,
                         help="The number of negative items sampled for each (user, pos item) pair.") #5
     parser.add_argument('--dataset_name', type=str, default='yelp2020',
-                        choices=["gowalla", "yelp2020", "amazon-book"],
+                        choices=["gowalla", "yelp2020"],
                         help="available datasets: [gowalla, yelp2020]")
     parser.add_argument("--res_prepath", default="./logs/",
                         help='The prepended path for result saving.')
