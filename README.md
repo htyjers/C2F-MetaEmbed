@@ -100,7 +100,7 @@ Python3 engine.py --dataset_name gowalla --num_clusters 300 --num_composition_ce
 ### Run the following command
 
 ```python
-Python3 engine.py --dataset_name gowalla --num_clusters 300 --num_composition_centroid 2 --device_id 0
+Python3 engine.py --dataset_name gowalla --num_clusters 300 --num_composition_centroid 2 -- init_path_ft  your coarse-grained stage path --device_id 0
 ```
 
 ## 5. Acknowledgments
