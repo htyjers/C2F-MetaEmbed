@@ -71,7 +71,7 @@ Train and test sets of Gowalla, Yelp2020 are located in [here](https://pan.baidu
 ### Run the following command
 
 ```python
-Python3 engine.py --dataset_name gowalla --num_clusters 300 --num_composition_centroid 2 --device_id 0
+Python3 engine.py --dataset_name gowalla --res_prepath your path1 --sign_ft 0 --device_id 0
 ```
 
 ## 4. The Fine-Grained Training Stage
@@ -100,7 +100,7 @@ Python3 engine.py --dataset_name gowalla --num_clusters 300 --num_composition_ce
 ### Run the following command
 
 ```python
-Python3 engine.py --dataset_name gowalla --num_clusters 300 --num_composition_centroid 2 -- init_path_ft  your coarse-grained stage path --device_id 0
+Python3 engine.py --dataset_name gowalla --res_prepath your path2 --sign_ft 1 --init_path_ft  your path1 --device_id 0
 ```
 
 ## 5. Acknowledgments
