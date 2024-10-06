@@ -17,7 +17,7 @@ The state-of-the-art recommendation systems have shifted the attention to effici
 	
 ##
 
-![](result/model.png)
+![](result/model1.png)
 <p align="center">Figure 1. Illustration of the proposed pipeline.</p>
 
 ##
