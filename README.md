@@ -5,10 +5,10 @@ This repository is the official code for the paper "Coarse-to-Fine Lightweight M
 
 ## 📚 Table of Contents
 
-- [📖 Introduction]()
-- [🌟 C2F-MetaEmbed]()
-- [📊 Experimental Results]()
-- [🔖 Citation]()
+- [📖 Introduction](https://github.com/htyjers/C2F-MetaEmbed?tab=readme-ov-file#-introduction)
+- [🌟 C2F-MetaEmbed](https://github.com/htyjers/C2F-MetaEmbed?tab=readme-ov-file#-c2f-metaembed-)
+- [📊 Experimental Results](https://github.com/htyjers/C2F-MetaEmbed?tab=readme-ov-file#-experimental-results)
+- [🔖 Citation](https://github.com/htyjers/C2F-MetaEmbed?tab=readme-ov-file#-citation)
 
 
 <details open>
