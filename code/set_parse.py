@@ -59,7 +59,7 @@ def config_parser() -> ArgumentParser:
     ####################################################################
     parser.add_argument("--sign_ft", type=int, default=1,
                         help="sign 0 for finetune stage. 1 for finetune stage")
-    parser.add_argument("--init_path_ft", default="./logs/amazon-book_latent_dim_128_num_cluster_300_seed_2020_num_composition_embs_2_lr_3e-03_optimizer_weight_decay_0.0_l2_penalty_5",
+    parser.add_argument("--init_path_ft", default="./logs/gowalla_latent_dim_128_num_cluster_300_seed_2020_num_composition_embs_2_lr_1e-03_optimizer_weight_decay_0.0_l2_penalty_5",
                         help='The path of load the model from coarse stage for finetune stage.')
     parser.add_argument("--threshold_ft", type=float, default=1,
                         help="Soft Thresholding threshold")
